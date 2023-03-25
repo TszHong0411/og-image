@@ -23,7 +23,7 @@
 
 - title（string）：顯示在圖片上的標題。預設值為 ''。
 - url（string）：顯示在圖片上的網址。預設值為 'honghong.me'。
-- image（string）：顯示在圖片上的圖片網址。預設值為 'https://honghong.me/static/images/avatar.png'。
+- image（string）：顯示在圖片上的圖片網址。預設值為 `https://honghong.me/static/images/avatar.png`。
 - author（string）：顯示在圖片上的作者名稱。預設值為 '小康'。
 - date（string）：顯示在圖片上的發布日期。格式為 'YYYY-MM-DD'。
 
