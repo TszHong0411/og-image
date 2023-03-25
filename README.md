@@ -1,4 +1,6 @@
-## Open Graph 圖片產生器
+<h1 align="center">
+ Open Graph 圖片產生器
+</h1>
 
 <p align="center">
   <img src="https://socialify.git.ci/tszhong0411/og-image/image?forks=1&issues=1&logo=https://honghong.me/static/images/projects/og-image/logo.png&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Dark">
@@ -35,34 +37,25 @@ https://og-image.honghong.me/website?title=<title>&url=<url>&image=<image>&autho
 
 產生的圖片將顯示在頁面上，但無法直接下載。使用者可以使用類似 Puppeteer 的工具來截取圖片，或者使用瀏覽器的截圖功能進行截圖。
 
-## 開發
+## 👋 在本地運行
 
-如果您想在本地運行此專案，可以按照以下步驟進行操作：
+1. Clone 這個倉庫
 
-1. Clone 本專案。
-
-```bash
+```sh
 git clone https://github.com/tszhong0411/og-image.git
 ```
 
-1. 進入專案目錄，使用 yarn 安裝依賴項目。
+2. 更改目錄
 
-```bash
+```sh
 cd og-image
-yarn install
 ```
 
-3. 啟動開發伺服器。
+3. 安裝 packages
 
-```bash
-yarn dev
+```sh
+yarn
 ```
-
-4. 在瀏覽器中打開 [http://localhost:3000/website](http://localhost:3000/website) 來測試。
-
-## 貢獻
-
-如果您發現了任何錯誤或者有任何改進意見，請提交 Issues 或者發起 Pull Request。感謝您的貢獻！
 
 <hr>
 <p align="center">
