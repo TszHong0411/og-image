@@ -1,7 +1,7 @@
 ## Open Graph 圖片產生器
 
 <p align="center">
-  <img src="https://socialify.git.ci/tszhong0411/og-image/image?forks=1&issues=1&logo=https%3A%2F%2Fhonghong.me%2Fstatic%2Fimages%2fprojects%2fog-image%2fprojects%2fog-image%2flogo.png&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Dark">
+  <img src="https://socialify.git.ci/tszhong0411/og-image/image?forks=1&issues=1&logo=https://honghong.me/static/images/projects/og-image/logo.png&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Dark">
 </p>
 
 <p align="center">
