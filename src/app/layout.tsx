@@ -1,11 +1,10 @@
+import { Analytics } from '@vercel/analytics/react'
 import clsx from 'clsx'
 import { Inter, Noto_Sans_TC } from 'next/font/google'
 
 import '@/styles/globals.css'
 
 import { site } from '@/config/site'
-
-import Analytics from './analytics'
 
 import { WithChildren } from '@/types'
 
