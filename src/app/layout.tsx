@@ -45,9 +45,9 @@ export const metadata = {
     locale: 'zh-TW',
     images: [
       {
-        url: `${site.url}/static/og.png`,
-        width: 1200,
-        height: 630,
+        url: 'https://honghong.me/static/images/projects/og-image/cover.png',
+        width: 1600,
+        height: 960,
         alt: site.description,
       },
     ],
