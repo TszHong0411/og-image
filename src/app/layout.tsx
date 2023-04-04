@@ -46,8 +46,8 @@ export const metadata = {
     images: [
       {
         url: 'https://honghong.me/static/images/projects/og-image/cover.png',
-        width: 1600,
-        height: 960,
+        width: 1200,
+        height: 630,
         alt: site.description,
       },
     ],
