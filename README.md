@@ -1,5 +1,5 @@
 <h1 align="center">
- Open Graph 圖片產生器
+ Open Graph Image Generator
 </h1>
 
 <p align="center">
@@ -7,51 +7,51 @@
 </p>
 
 <p align="center">
-    <a href="https://honghong.me" target="blank">線上查看</a>
+    <a href="https://honghong.me" target="blank">View Online</a>
     ·
-    <a href="https://github.com/tszhong0411/honghong.me/issues/new/choose">回報錯誤</a>
+    <a href="https://github.com/tszhong0411/honghong.me/issues/new/choose">Report Bug</a>
     ·
-    <a href="https://github.com/tszhong0411/honghong.me/issues/new/choose">要求新功能</a>
+    <a href="https://github.com/tszhong0411/honghong.me/issues/new/choose">Request New Feature</a>
 </p>
 
 ## 🌍 og-image.honghong.me
 
-- 框架：[Next.js](https://nextjs.org/)
-- 網站圖標：[realfavicongenerator](https://realfavicongenerator.net/)
-- 分析：[Vercel](https://vercel.com/)
-- 樣式：[Tailwindcss](https://tailwindcss.com)
+- Framework: [Next.js](https://nextjs.org/)
+- Favicon: [realfavicongenerator](https://realfavicongenerator.net/)
+- Analytics: [Vercel](https://vercel.com/)
+- Styling: [Tailwindcss](https://tailwindcss.com)
 
-本專案使用 `Next.js`，可根據給特定的參數產生 Open Graph 圖片。使用者可以瀏覽網站 [https://og-image.honghong.me/website](https://og-image.honghong.me/website) 來產生圖片，並使用以下參數：
+This project uses `Next.js` to generate Open Graph images based on specific parameters. Users can visit the website [https://og-image.honghong.me](https://og-image.honghong.me) to generate images, using the following parameters:
 
-- title（string）：顯示在圖片上的標題。預設值為 ''。
-- url（string）：顯示在圖片上的網址。預設值為 'honghong.me'。
-- image（string）：顯示在圖片上的圖片網址。預設值為 `https://honghong.me/static/images/avatar.png`。
-- author（string）：顯示在圖片上的作者名稱。預設值為 '小康'。
-- date（string）：顯示在圖片上的發布日期。格式為 'YYYY-MM-DD'。
+- title(string): The title displayed on the image. Default value is ''.
+- url(string): The URL displayed on the image. Default value is 'honghong.me'.
+- image(string): The image URL displayed on the image. Default value is `https://honghong.me/static/images/avatar.png`.
+- author(string): The author name displayed on the image. Default value is '小康'.
+- date(string): The release date displayed on the image. Format is 'YYYY-MM-DD'.
 
-使用這些參數，只需將它們附加到以下 URL 中:
+Using these parameters, simply append them to the following URL:
 
 ```
 https://og-image.honghong.me/website?title=<title>&url=<url>&image=<image>&author=<author>&date=<date>
 ```
 
-產生的圖片將顯示在頁面上，但無法直接下載。使用者可以使用類似 Puppeteer 的工具來截取圖片，或者使用瀏覽器的截圖功能進行截圖。
+The generated image will be displayed on the page but cannot be directly downloaded. Users can use tools like Puppeteer to capture the image, or use the screenshot function of the browser to capture it.
 
-## 👋 在本地運行
+## 👋 Running Locally
 
-1. Clone 這個倉庫
+1. Clone the repository
 
 ```sh
 git clone https://github.com/tszhong0411/og-image.git
 ```
 
-2. 更改目錄
+2. Go to the project directory
 
 ```sh
 cd og-image
 ```
 
-3. 安裝 packages
+3. Install dependencies
 
 ```sh
 yarn
@@ -59,5 +59,5 @@ yarn
 
 <hr>
 <p align="center">
-用 ❤️ 製作在 Hong Kong
+Made with ❤️ in Hong Kong
 </p>
