@@ -1,14 +1,24 @@
 {
   "name": "og-image",
   "private": true,
-  "version": "1.0.0",
+  "version": "0.0.0",
   "license": "MIT",
   "type": "module",
+  "description": "Open Graph Image Generator",
+  "author": "Lai Tsz Hong <info@honghong.me> (https://github.com/tszhong0411/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tszhong0411/og-image.git"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "format": "prettier -w .",
+    "type-check": "tsc --noEmit",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@vercel/analytics": "^0.1.11",
@@ -44,12 +54,11 @@
     "typescript": "^5.0.2"
   },
   "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx}": [
-      "eslint --max-warnings=0",
-      "prettier -w"
+    "*.{js,jsx,ts,tsx}": [
+      "eslint"
     ],
-    "src/**/*.{json,css,scss,md,mdx}": [
-      "prettier -w"
+    "*.{json,css,scss,md,mdx,js,jsx,ts,tsx,cjs,mjs}": [
+      "prettier -c"
     ]
   },
   "prettier": {
