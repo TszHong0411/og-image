@@ -21,6 +21,8 @@
 - Analytics: [Vercel](https://vercel.com/)
 - Styling: [Tailwindcss](https://tailwindcss.com)
 
+## 📝 Usage
+
 This project uses `Next.js` to generate Open Graph images based on specific parameters. Users can visit the website [https://og-image.honghong.me](https://og-image.honghong.me) to generate images, using the following parameters:
 
 - title(string): The title displayed on the image. Default value is ''.
