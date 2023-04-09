@@ -44,6 +44,7 @@ export const metadata = {
   },
   keywords: site.keywords,
   themeColor: '#000',
+  creator: 'tszhong0411',
   openGraph: {
     url: `${site.url}`,
     type: 'website',
