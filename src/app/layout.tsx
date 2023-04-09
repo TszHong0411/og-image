@@ -1,7 +1,6 @@
 import { Analytics } from '@vercel/analytics/react'
 import clsx from 'clsx'
 import { Inter, Noto_Sans_TC } from 'next/font/google'
-
 import '@/styles/globals.css'
 
 import { site } from '@/config/site'
@@ -28,6 +27,13 @@ export const metadata = {
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
   },
   manifest: '/static/favicon/site.webmanifest',
   twitter: {
@@ -36,24 +42,28 @@ export const metadata = {
     site: '@TszhongLai0411',
     creator: '@TszhongLai0411',
   },
+  keywords: site.keywords,
+  themeColor: '#000',
   openGraph: {
     url: `${site.url}`,
     type: 'website',
     title: site.title,
     siteName: site.title,
     description: site.description,
-    locale: 'zh-TW',
+    locale: 'en-US',
     images: [
       {
         url: 'https://honghong.me/static/images/projects/og-image/cover.png',
         width: 1200,
         height: 630,
         alt: site.description,
+        type: 'image/png',
       },
     ],
   },
   icons: {
     icon: '/static/favicon/favicon.svg',
+    shortcut: '/static/favicon/favicon.svg',
     apple: [
       {
         url: '/static/favicon/apple-touch-icon.png',
@@ -72,10 +82,10 @@ export default function RootLayout(props: RootLayoutProps) {
 
   return (
     <html
-      lang='zh-TW'
+      lang='en-US'
       className={clsx(inter.variable, notoSansTC.variable, 'scroll-smooth')}
     >
-      <body className='font-default'>
+      <body className='overflow-x-hidden bg-hong-bg font-default text-white'>
         {children}
         <Analytics />
       </body>
