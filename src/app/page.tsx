@@ -16,7 +16,7 @@ const Home = () => {
 
       <div className='my-8'>
         <a
-          href='https://github.com/tszhong0411/og-image'
+          href='https://github.com/tszHong0411/og-image#-usage'
           className='rounded-lg border border-white bg-white px-4 py-2 text-xl font-bold text-black transition-colors duration-300 hover:bg-black hover:text-white sm:text-3xl'
         >
           Usage
