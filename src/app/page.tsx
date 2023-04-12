@@ -25,9 +25,9 @@ const Home = () => {
 
       <Image
         src='/static/images/example.png'
-        width={899}
-        height={470}
-        className='rounded-lg'
+        width={1600 * 0.4}
+        height={630 * 0.4}
+        className='rounded-2xl'
         alt='Example'
       />
     </div>
