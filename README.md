@@ -28,7 +28,7 @@ This project uses `Next.js` to generate Open Graph images based on specific para
 - title(string): The title displayed on the image. Default value is ''.
 - url(string): The URL displayed on the image. Default value is 'honghong.me'.
 - image(string): The image URL displayed on the image. Default value is `https://honghong.me/static/images/avatar.png`.
-- author(string): The author name displayed on the image. Default value is '小康'.
+- author(string): The author name displayed on the image. Default value is 'Hong'.
 - date(string): The release date displayed on the image. Format is 'YYYY-MM-DD'.
 
 Using these parameters, simply append them to the following URL:

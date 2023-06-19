@@ -15,17 +15,17 @@ export const site: Site = {
     process.env.NODE_ENV === 'production'
       ? 'https://og-image.honghong.me'
       : 'http://localhost:3000',
-  title: '小康 - Open Graph Image Generator',
-  name: '小康',
+  title: 'Open Graph Image Generator - Hong',
+  name: 'Hong',
   keywords: [
-    '小康',
+    'Hong',
     'Open Graph Image Generator',
     'OG Image',
     'OG Image Generator',
   ],
   titleTemplate: '- Open Graph Image Generator',
   description:
-    "小康's Open Graph Image Generator is used to generate OG Images for blog articles and it allows the use of parameters to customize the output.",
+    'A Open Graph Image Generator is used to generate OG Images for blog articles and it allows the use of parameters to customize the output.',
   favicons: [
     {
       rel: 'icon',

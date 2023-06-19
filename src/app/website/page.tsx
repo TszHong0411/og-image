@@ -10,7 +10,7 @@ const OGImagePage = () => {
   const url = searchParams.get('url') ?? 'honghong.me'
   const image =
     searchParams.get('image') ?? 'https://honghong.me/static/images/avatar.png'
-  const author = searchParams.get('author') ?? '小康'
+  const author = searchParams.get('author') ?? 'Hong'
   const date = searchParams.get('date')
     ? dayjs(searchParams.get('date')).format('YYYY-MM-DD')
     : null
