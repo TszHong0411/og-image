@@ -5,10 +5,10 @@
   "license": "MIT",
   "type": "module",
   "description": "Open Graph Image Generator",
-  "author": "Lai Tsz Hong <info@honghong.me> (https://github.com/tszhong0411/)",
+  "author": "Lai Tsz Hong <info@honghong.me> (https://github.com/codewithhong/)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tszhong0411/og-image.git"
+    "url": "git+https://github.com/codewithhong/og-image.git"
   },
   "scripts": {
     "dev": "next dev",
@@ -20,7 +20,7 @@
     "type-check": "tsc --noEmit",
     "prepare": "husky install"
   },
-  "prettier": "@tszhong0411/prettier-config",
+  "prettier": "@codewithhong/prettier-config",
   "dependencies": {
     "@vercel/analytics": "^0.1.11",
     "clsx": "^1.2.1",
@@ -31,11 +31,11 @@
     "sharp": "^0.32.0"
   },
   "devDependencies": {
+    "@codewithhong/eslint-config": "^2.0.0",
+    "@codewithhong/prettier-config": "^2.0.0",
+    "@codewithhong/tsconfig": "^2.0.0",
     "@commitlint/cli": "^17.5.0",
     "@commitlint/config-conventional": "^17.4.4",
-    "@tszhong0411/eslint-config": "^1.0.7",
-    "@tszhong0411/prettier-config": "^1.0.1",
-    "@tszhong0411/tsconfig": "^1.0.1",
     "@types/node": "^18.15.9",
     "@types/react": "^18.0.29",
     "@types/react-dom": "^18.0.11",
@@ -61,7 +61,7 @@
   "eslintConfig": {
     "extends": [
       "next/core-web-vitals",
-      "@tszhong0411/eslint-config"
+      "@codewithhong/eslint-config"
     ],
     "parserOptions": {
       "project": "./tsconfig.json",
