@@ -3,15 +3,15 @@
 </h1>
 
 <p align="center">
-  <img src="https://socialify.git.ci/codewithhong/og-image/image?forks=1&issues=1&logo=https://honghong.me/static/images/projects/og-image/logo.png&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Dark">
+  <img src="https://socialify.git.ci/tszhong0411/og-image/image?forks=1&issues=1&logo=https://honghong.me/static/images/projects/og-image/logo.png&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Dark">
 </p>
 
 <p align="center">
     <a href="https://honghong.me" target="blank">View Online</a>
     ·
-    <a href="https://github.com/codewithhong/honghong.me/issues/new/choose">Report Bug</a>
+    <a href="https://github.com/tszhong0411/honghong.me/issues/new/choose">Report Bug</a>
     ·
-    <a href="https://github.com/codewithhong/honghong.me/issues/new/choose">Request New Feature</a>
+    <a href="https://github.com/tszhong0411/honghong.me/issues/new/choose">Request New Feature</a>
 </p>
 
 ## 🌍 og-image.honghong.me
@@ -44,7 +44,7 @@ The generated image will be displayed on the page but cannot be directly downloa
 1. Clone the repository
 
 ```sh
-git clone https://github.com/codewithhong/og-image.git
+git clone https://github.com/tszhong0411/og-image.git
 ```
 
 2. Go to the project directory
