@@ -1,4 +1,3 @@
-import { Analytics } from '@vercel/analytics/react'
 import clsx from 'clsx'
 import { Inter, Noto_Sans_TC } from 'next/font/google'
 import '@/styles/globals.css'
@@ -88,7 +87,6 @@ export default function RootLayout(props: RootLayoutProps) {
     >
       <body className='overflow-x-hidden bg-hong-bg font-default text-white'>
         {children}
-        <Analytics />
       </body>
     </html>
   )

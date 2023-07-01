@@ -18,7 +18,6 @@
 
 - Framework: [Next.js](https://nextjs.org/)
 - Favicon: [realfavicongenerator](https://realfavicongenerator.net/)
-- Analytics: [Vercel](https://vercel.com/)
 - Styling: [Tailwindcss](https://tailwindcss.com)
 
 ## 📝 Usage

@@ -22,10 +22,6 @@
   },
   "prettier": "@tszhong0411/prettier-config",
   "dependencies": {
-    "@tszhong0411/eslint-config": "^1.0.13",
-    "@tszhong0411/prettier-config": "^1.0.2",
-    "@tszhong0411/tsconfig": "^1.0.1",
-    "@vercel/analytics": "^0.1.11",
     "clsx": "^1.2.1",
     "dayjs": "^1.11.7",
     "next": "13.2.4",
@@ -36,6 +32,9 @@
   "devDependencies": {
     "@commitlint/cli": "^17.5.0",
     "@commitlint/config-conventional": "^17.4.4",
+    "@tszhong0411/eslint-config": "^1.0.13",
+    "@tszhong0411/prettier-config": "^1.0.2",
+    "@tszhong0411/tsconfig": "^1.0.1",
     "@types/node": "^18.15.9",
     "@types/react": "^18.0.29",
     "@types/react-dom": "^18.0.11",
