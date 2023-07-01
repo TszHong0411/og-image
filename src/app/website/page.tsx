@@ -4,6 +4,8 @@ import dayjs from 'dayjs'
 import { useSearchParams } from 'next/navigation'
 import React from 'react'
 
+import bgImage from '@/assets/images/gradient_bg.png'
+
 const OGImagePage = () => {
   const searchParams = useSearchParams()
   const title = searchParams.get('title') ?? ''
@@ -18,8 +20,12 @@ const OGImagePage = () => {
   return (
     <>
       <div
-        className='flex flex-col justify-between bg-[url(https://honghong.me/static/images/og/gradient_bg.png)] py-16 px-12 text-white'
-        style={{ width: 1200, height: 630 }}
+        className='flex flex-col justify-between py-16 px-12 text-white'
+        style={{
+          width: 1200,
+          height: 630,
+          backgroundImage: `url(${bgImage.src})`,
+        }}
       >
         <div className='flex items-center justify-start'>
           {/* eslint-disable-next-line @next/next/no-img-element */}
